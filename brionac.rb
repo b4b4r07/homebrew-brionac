@@ -15,7 +15,7 @@ class Brionac < Formula
     end
 
     def install
-        system 'mv', "brionac_darwin_#{KIND}", 'gomi'
+        system 'mv', "brionac_darwin_#{KIND}", 'brionac'
         bin.install 'brionac'
     end
 
